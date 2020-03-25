@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
   # Uso la box de Ubuntu 18.04 de 64 bits
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/bionic64"
 
   # Especifico una versión de la box de Ubuntu 18.04
   config.vm.box_url = "https://vagrantcloud.com/ubuntu/boxes/bionic64/versions/20200324.0.0/providers/virtualbox.box"
